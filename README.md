@@ -1,5 +1,7 @@
 # iKB - Knowledge-driven Database Engine
 
+[![Build Status](https://secure.travis-ci.org/snowyu/ikb.png?branch=master)](http://travis-ci.org/snowyu/ikb)
+
 iΚB is based on knowledge-driven hierarchical nosql database. Its main goals are:
 
 * The knowledge base make computers and people can understand and use it
@@ -27,7 +29,8 @@ First it's a hierarchical nosql key/value database and the hierarchy is inherita
 
 1. Each key is a knowledge item
 1. A knowledge item only one explanation(not allow to have multiple explanations)
-1. the `"key path"` indicates inheritance relationship(ISA) of the knowledge.
+1. The `"key path"` indicates inheritance relationship(ISA) of the knowledge.
+1. The key's inheritor called subkey of the key.
 1. The key with `"attributes"` represents meronymy relationship(HASA).
    * The `"value"` is a special `"attribute"`.
 1. The key with `"actions"` means executable functions or the key issued.
@@ -48,8 +51,11 @@ about more than 21,000 characters, and each character has its own meaning.
 
 This makes the Chinese coding greatly reduces the storage footprint, and can have a clear meaning.
 
-eg, "attrbute" is is composed of eight Engilish characters. but Chinese, only two characters: "属性".
+eg, 
 
+* "attrbute" is is composed of eight Engilish characters. but Chinese, only two characters: "属性".
+* "type" four characters for Engilish. one characters for Chinese: "型".
+* "English" serven characters for English, one character for Chinese: "英".
 
 
 
