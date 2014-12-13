@@ -40,8 +40,8 @@ First it's a hierarchical nosql key/value database and the hierarchy is inherita
 
 This section is similar to wordnet. But
 
-1. Encoding the knowledge item with Chinese Character
-1. A knowledge item only one explanation(not allow to have multiple explanations)
+1. Encoding the knowledge item ID(identify) with Chinese Character
+1. A knowledge item only one ID(identify) and one explanation(not allow to have multiple identify or explanations)
 1. The root classification is different from Wordnet.
 
 ### Why encoding with Chinese characters?

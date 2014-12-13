@@ -37,7 +37,7 @@ module.exports = (grunt) ->
         check: ['src/**/*.coffee', 'test/**/*.js', 'test/**/*.coffee']
       all:
         options:
-          src: ['test/**/*.coffee', 'src/MeKB/test/**/*.coffee']
+          src: ['test/**/*.coffee']
 
     powerbuild:
       options:
