@@ -41,12 +41,13 @@ First it's a hierarchical nosql key/value database and the hierarchy is inherita
 This section is similar to wordnet. But the differences are:
 
 1. Encoding the knowledge item ID(identification) with Chinese Character
-1. A knowledge item only one ID(identification) and one explanation(not allow to have multiple identify or explanations)
+1. A knowledge item only one ID(identification) and one explanation(not allow to have multiple identification or explanations)
 1. The root classification is different from Wordnet.
 
-### Why encoding with Chinese characters?
+### Why encoding Knowledge ID with Chinese characters?
 
-General
+Generally, we use numbers and GUID as ID (identification) System.
+But this ID is unmeaning and difficult to maintain.
 
 Chinese characters have a stable architecture, as well as plenty of character,
 about more than 21,000 characters, and each character has its own meaning.
@@ -58,6 +59,5 @@ eg,
 * "attrbute" is is composed of eight Engilish characters. but Chinese, only two characters: "属性".
 * "type" four characters for Engilish. one characters for Chinese: "型".
 * "English" serven characters for English, one character for Chinese: "英".
-
 
 
