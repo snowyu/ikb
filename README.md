@@ -7,7 +7,7 @@ iΚB is based on knowledge-driven hierarchical nosql database. Its main goals ar
 * The knowledge base make computers and people can understand and use it
 * Provide The Common Knowledge Classification
 * Inference Engine build-in to reason and "think about"
-* Peer to Peer Share Knowledge
+* Peer to Peer Share Knowledge(machine to machine)
 * Make your computer into a real logic-based electronic brain
 
 
@@ -27,7 +27,7 @@ But it is still quite different with the above-mentioned.
 
 First it's a hierarchical nosql key/value database and the hierarchy is inheritance releationship only.
 
-1. Each key is a knowledge item
+1. Each key is a knowledge item ID(identification)
 1. A knowledge item only one explanation(not allow to have multiple explanations)
 1. The `"key path"` indicates inheritance relationship(ISA) of the knowledge.
 1. The key's inheritor called subkey of the key.
@@ -38,13 +38,15 @@ First it's a hierarchical nosql key/value database and the hierarchy is inherita
 
 ## The Common Knowledge Classification Specification
 
-This section is similar to wordnet. But
+This section is similar to wordnet. But the differences are:
 
-1. Encoding the knowledge item ID(identify) with Chinese Character
-1. A knowledge item only one ID(identify) and one explanation(not allow to have multiple identify or explanations)
+1. Encoding the knowledge item ID(identification) with Chinese Character
+1. A knowledge item only one ID(identification) and one explanation(not allow to have multiple identify or explanations)
 1. The root classification is different from Wordnet.
 
 ### Why encoding with Chinese characters?
+
+General
 
 Chinese characters have a stable architecture, as well as plenty of character,
 about more than 21,000 characters, and each character has its own meaning.
