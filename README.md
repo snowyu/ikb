@@ -18,10 +18,18 @@ In some ways It is similar to:
 * Wordnet
 * Freebase
 * Wikipedia
+* Wolfram
 
 
 But it is still quite different with the above-mentioned.
 
+
+The differencement with Wolfram:
+
+* Open Knowledge for ervery-one
+* Peer to Peer Share/exchange/create Knowledge
+* More Natural Language like human mother tongue.
+* Open Source
 
 ## Database Specification
 
