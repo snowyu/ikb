@@ -36,7 +36,7 @@ The differencement with Wolfram:
 First it's a hierarchical nosql key/value database and the hierarchy is inheritance releationship only.
 
 1. Each key is a knowledge item ID(identification)
-1. A knowledge item only one explanation(not allow to have multiple explanations)
+1. A knowledge item only one meaning(more than one meaning is not allowed)
 1. The `"key path"` indicates inheritance relationship(ISA) of the knowledge.
 1. The key's inheritor called subkey of the key.
 1. The key with `"attributes"` represents meronymy relationship(HASA).
@@ -49,23 +49,24 @@ First it's a hierarchical nosql key/value database and the hierarchy is inherita
 This section is similar to wordnet. But the differences are:
 
 1. Encoding the knowledge item ID(identification) with Chinese Character
-1. A knowledge item only one ID(identification) and one explanation(not allow to have multiple identification or explanations)
+1. A knowledge item only one ID(identification) and one meaning(not allow to have multiple identification or explanations)
 1. The root classification is different from Wordnet.
 
 ### Why encoding Knowledge ID with Chinese characters?
 
 Generally, we use numbers and GUID as ID (identification) System.
-But this ID is unmeaning and difficult to maintain.
+But this ID is meaningless and difficult to maintain.
 
 Chinese characters have a stable architecture, as well as plenty of character,
 about more than 21,000 characters, and each character has its own meaning.
 
 This makes the Chinese coding greatly reduces the storage footprint, and can have a clear meaning.
+Anyway the meaningful ID should be better than meaningless ID.
 
-eg, 
+eg,
 
 * "attrbute" is is composed of eight Engilish characters. but Chinese, only two characters: "属性".
-* "type" four characters for Engilish. one characters for Chinese: "型".
+* "type" four characters for Engilish. one character for Chinese: "型".
 * "English" serven characters for English, one character for Chinese: "英".
 
 
